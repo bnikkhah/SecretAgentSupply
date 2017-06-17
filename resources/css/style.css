@@ -52,3 +52,14 @@ header span{
 .headline h2{
 	font-size:2rem;
 }
+
+nav{
+	background-color:firebrick;
+	padding:0.75rem 0;
+}
+
+nav ul{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
