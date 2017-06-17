@@ -26,3 +26,29 @@ header img{
 header span{
 	font-size:1rem;
 }
+
+.cover-photo{
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+	height:25rem;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+}
+
+.headline{
+	background-color:black;
+	font-weight:bold;
+	width:20rem;
+	padding:2rem 3rem;
+	position:relative;
+	top:9rem;
+}
+
+.headline h5{
+	font-size:1rem;
+	padding-bottom:0.25rem;
+}
+
+.headline h2{
+	font-size:2rem;
+}
