@@ -121,3 +121,71 @@ footer{
 	padding:5rem 0;
 	background-color:black;
 }
+
+@media only screen and (max-width:1024px){
+	.product{
+		width:47%;
+	}
+	
+	.product.glasses{
+		display:none;
+	}
+	
+	.mobile-nav{
+		display:flex;
+	}
+	
+	.desktop-nav{
+		display:none;
+	}
+}
+
+@media only screen and (min-width:1024px){
+	.mobile-nav{
+		display:none;
+	}
+}
+
+@media only screen and (max-width:470px){
+	.headline h5{
+		font-size:0.77rem;
+	}
+
+	.headline h2{
+		font-size:1rem;
+	}
+	
+	.cover-photo{
+		height:15rem;
+	}
+	
+	.headline{
+		top:10rem;
+		padding:1rem 2rem;
+	}
+	
+	.product.watch{
+		display:none;
+	}
+	
+	.product{
+		width:90%;
+	}
+	
+	.content-container{
+		width:90%;
+	}
+	
+	.info-display{
+		flex-direction:column;
+		align-items:center;
+	}
+	
+	.display-store{
+		justify-content:center;
+	}
+	
+	footer{
+		display:flex;
+	}
+}
